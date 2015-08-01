@@ -3,6 +3,7 @@ package org.vaadin.magi.stuffbase;
 import org.vaadin.magi.stuffbase.data.Stuff;
 import org.vaadin.magi.stuffbase.data.StuffBase;
 import org.vaadin.magi.stuffbase.data.StuffLocation;
+import org.vaadin.magi.stuffbase.ui.StuffView;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Widgetset;
