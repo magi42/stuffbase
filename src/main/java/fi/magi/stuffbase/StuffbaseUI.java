@@ -1,9 +1,9 @@
-package org.vaadin.magi.stuffbase;
+package fi.magi.stuffbase;
 
-import org.vaadin.magi.stuffbase.data.Stuff;
-import org.vaadin.magi.stuffbase.data.StuffBase;
-import org.vaadin.magi.stuffbase.data.StuffLocation;
-import org.vaadin.magi.stuffbase.ui.StuffView;
+import fi.magi.stuffbase.data.Stuff;
+import fi.magi.stuffbase.data.StuffBase;
+import fi.magi.stuffbase.data.StuffLocation;
+import fi.magi.stuffbase.ui.StuffView;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Widgetset;
@@ -11,13 +11,14 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 
 /**
- *
+ * 
  */
-@Theme("stuffbasetheme")
-@Widgetset("org.vaadin.magi.stuffbase.StuffbaseWidgetset")
+@Theme("stufftheme")
+@Widgetset("fi.magi.stuffbase.StuffbaseWidgetset")
 public class StuffbaseUI extends UI {
+	private static final long serialVersionUID = 5808444354086789262L;
 
-    @Override
+	@Override
     protected void init(VaadinRequest vaadinRequest) {
         StuffBase stuffbase = new StuffBase();
         

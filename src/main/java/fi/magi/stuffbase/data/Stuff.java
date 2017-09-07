@@ -1,4 +1,4 @@
-package org.vaadin.magi.stuffbase.data;
+package fi.magi.stuffbase.data;
 
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,8 +1,8 @@
-package org.vaadin.magi.stuffbase.ui;
+package fi.magi.stuffbase.ui;
 
 import java.util.function.Consumer;
 
-import org.vaadin.magi.stuffbase.data.Stuff;
+import fi.magi.stuffbase.data.Stuff;
 
 import com.vaadin.data.fieldgroup.FieldGroup;
 import com.vaadin.data.util.BeanItem;
